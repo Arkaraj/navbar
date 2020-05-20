@@ -77,9 +77,23 @@ body{
         flex-direction: column;
         justify-content: center;align-items: center;
         text-align: center;
-        padding: 3vw 2vh;
+        padding: 2vh 2vw 2vh 30vw;
+        margin: 30px;
     }
 }
+ @media only screen and (max-width: 970px) and (min-width: 600px)
+{
+    .nav{
+        position: relative;
+        z-index:1;
+        top:-1px;
+        background: lightblue;
+        padding:10px 0px 150px 0px;
+    } 
+    .tag{
+        padding: 2vh 2vw;
+    }   
+} 
 @media only screen and (max-width: 600px){
     body{
         background: darkcyan;
@@ -106,5 +120,7 @@ body{
     border-bottom-right-radius: 0px;
     background: lightblue;
     }
+    .tag{
+        padding: 2vh 2vw;
+    }
 }
-
